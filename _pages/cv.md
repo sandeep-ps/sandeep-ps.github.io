@@ -10,13 +10,13 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+=========
 * B.Tech. in Computer Science and Engineering, Amrita University, 2009
 * M.S. in Computer Science and Engineering, The State University of New York at Buffalo, 2013
 * Non-Degree Graduate Program (part-time) in Computer Science and Neuroscience, University of Illinois at Urbana-Champaign, 2013 - Present
 
-Work experience
-======
+Experience
+==========
 * March 2015 - Present: __Research Programmer__
   * _Innovative Software and Data Analysis Division (previously Image and Spatial Data Analysis Division), National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign_
   * Key duties:
@@ -74,7 +74,7 @@ Skills
   * Linux (Ubuntu), Windows
 
 Publications
-======
+============
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
@@ -87,4 +87,13 @@ Talks
   
 Service and Leadership
 ======================
-* Currently signed in to 43 different slack teams
+* Reviewer, XSEDE Resource Allocation Committee (Adaptive Proposals), Feb. 2017, Mar. 2016, Mar. 2015
+* Reviewer, XSEDE Resource Allocation Committee (Top 100 Proposals), Dec. 2016
+* Program Committee Member, XSEDE15 (Software and Software Environments Track)
+
+Selected Honors and Awards
+==========================
+* Best Accelerating Discovery in Scholarly Research Paper Award at PEARC17 Conference in 2017 for the paper titled “Extracting Meaningful Data from Decomposing Bodies.”
+* Excellence award at NCSA employee recognition program in 2013
+* 15th rank in the Asia regional finals of ACM International Collegiate Programming Contest in 2008
+* 5th position in The Great Minds Challenge conducted by IBM Academic Initiative, India in 2007
