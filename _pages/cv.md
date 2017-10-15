@@ -32,9 +32,9 @@ Experience
   * Key duties: 
     * Research, develop and publish on different projects in the general area of applied computer vision
     * Lead developer for Groupscope – an NSF funded project for studying large group dynamics using video and audio data (__[https://ssa.ncsa.illinois.edu/isda/projects/groupscope/](https://ssa.ncsa.illinois.edu/isda/projects/groupscope/)__)
-    * Design and develop software applications for the Large Scale Video Analysis (LSVA) project using XSEDE (Extreme Science and Engineering Discovery Environment) resources
-    * Design and develop gesture based interaction software for X3DOM models using Leap Motion Controller for LinkSCEEM project (__[https://ssa.ncsa.illinois.edu/isda/projects/linksceem/](https://ssa.ncsa.illinois.edu/isda/projects/linksceem/)__)
-    * Maintain a PCL KinFu Large Scale based application for creating 3D models by scanning using Kinect camera for LinkSCEEM project
+    * Designed and developed software applications for the Large Scale Video Analysis (LSVA) project using XSEDE (Extreme Science and Engineering Discovery Environment) resources
+    * Designed and developed a gesture based interaction software for X3DOM models using Leap Motion Controller for the LinkSCEEM project (__[https://ssa.ncsa.illinois.edu/isda/projects/linksceem/](https://ssa.ncsa.illinois.edu/isda/projects/linksceem/)__)
+    * Maintained a PCL KinFu Large Scale based application for creating 3D models by scanning using Kinect camera for the LinkSCEEM project
   * Supervisors: Kenton McHenry, Ph.D. and Jong Lee, Ph.D.
 
 * November 2011 - March 2013: __Software Developer (Student Assistant)__
