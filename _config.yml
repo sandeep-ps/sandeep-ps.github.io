@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Sandeep Puthanveetil Satheesan"
-  avatar           : "profile-3.png"
+  avatar           : "profile.jpeg"
   bio              : "Research Programmer at National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign"
   location         : "Urbana, Illinois"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=frYmlJgAAAAJ"
   email            : "sandeeps@illinois.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Sandeep_Puthanveetil_Satheesan"
   uri              :
   bitbucket        :
   codepen          :
