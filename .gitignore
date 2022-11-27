@@ -1,4 +1,9 @@
 _site/
 .idea/
+.bundle/
+venv/
+vendor/
 
 Gemfile.lock
+.jekyll-metadata
+.env
