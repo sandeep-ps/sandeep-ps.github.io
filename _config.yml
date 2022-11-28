@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Sandeep Puthanveetil Satheesan"
 title_separator          : "-"
 name                     : &name "Sandeep Puthanveetil Satheesan"
-description              : &description "Research Programmer at National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign"
-url                      : https://sandeepps4.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Senior Research Programmer at the National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign."
+url                      : https://sandeep-ps.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "sandeepps4/sandeepps4.github.io"
+repository               : "sandeep-ps/sandeep-ps.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Sandeep Puthanveetil Satheesan"
   avatar           : "profile.jpeg"
-  bio              : "Research Programmer at National Center for Supercomputing Applications, University of Illinois at Urbana-Champaign"
+  bio              : "Senior Research Programmer at the National Center for Supercomputing Applications (NCSA), University of Illinois at Urbana-Champaign."
   location         : "Urbana, Illinois"
-  employer         :
+  employer         : "NCSA"
   googlescholar    : "https://scholar.google.com/citations?user=frYmlJgAAAAJ"
   email            : "sandeeps@illinois.edu"
   researchgate     : "https://www.researchgate.net/profile/Sandeep_Puthanveetil_Satheesan"
@@ -330,4 +330,4 @@ compress_html:
   ignore:
     envs: development
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal # TODO: Another theme was minima. Check changing themes.
