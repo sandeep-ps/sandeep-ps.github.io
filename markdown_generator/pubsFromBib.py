@@ -29,7 +29,7 @@ publist = {
     "proceeding": {
         "file" : "proceedings.bib",
         "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
+        "venue-pretext": "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
@@ -40,7 +40,21 @@ publist = {
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
-    } 
+    },
+    "misc":{
+        "file": "misc.bib",
+        "venuekey" : "journal",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    },
+    "software":{
+        "file": "software.bib",
+        "venuekey" : "publisher",
+        "venue-pretext" : "",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+    }
 }
 
 html_escape_table = {
@@ -100,7 +114,10 @@ for pubsource in publist:
 
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                # TODO: Added a temporary fix for multiple words in first names and last names.
+                str_first_names = " ".join(author.bibtex_first_names)
+                str_last_names = " ".join(author.last_names)
+                citation = citation + " " + str_first_names + " " + str_last_names + ", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
