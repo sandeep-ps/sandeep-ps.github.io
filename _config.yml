@@ -81,6 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Sandeep Puthanveetil Satheesan"
+  pronouns         :  "he/him"
   avatar           : "profile.jpeg"
   bio              : "Senior Research Programmer at the National Center for Supercomputing Applications (NCSA), University of Illinois at Urbana-Champaign."
   location         : "Urbana, Illinois"
@@ -108,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "ps4cs"
   vine             :
   weibo            :
   xing             :
@@ -148,7 +149,7 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
+encoding: "UTF-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -285,6 +286,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -330,4 +332,5 @@ compress_html:
   ignore:
     envs: development
 
-theme: jekyll-theme-minimal # TODO: Another theme was minima. Check changing themes.
+#theme: jekyll-theme-minimal # Ref: https://pages.github.com/themes/.
+remote_theme: pages-themes/minimal@v0.2.0
