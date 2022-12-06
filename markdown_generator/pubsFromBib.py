@@ -31,7 +31,7 @@ publist = {
         "venuekey": "booktitle",
         "venue-pretext": "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publications/"}
         
     },
     "journal":{
@@ -39,21 +39,21 @@ publist = {
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publications/"}
     },
     "misc":{
         "file": "misc.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publications/"}
     },
     "software":{
         "file": "software.bib",
         "venuekey" : "publisher",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
+                        "permalink":"/publications/"}
     }
 }
 

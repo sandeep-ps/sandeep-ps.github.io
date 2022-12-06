@@ -1,7 +1,7 @@
 ---
 title: "Brown Dog - A Science Driven Data Transformation Service"
 collection: publications
-permalink: /publication/2016-01-01-Brown-Dog-A-Science-Driven-Data-Transformation-Service
+permalink: /publications/2016-01-01-Brown-Dog-A-Science-Driven-Data-Transformation-Service
 date: 2016-01-01
 venue: 'Gateways 2016'
 paperurl: 'https://figshare.com/articles/journal_contribution/Brown_Dog_A_Science_Driven_Data_Transformation_Service/4490735'

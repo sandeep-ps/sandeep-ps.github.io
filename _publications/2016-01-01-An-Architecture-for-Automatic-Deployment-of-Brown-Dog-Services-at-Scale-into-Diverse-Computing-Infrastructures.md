@@ -1,7 +1,7 @@
 ---
 title: "An Architecture for Automatic Deployment of Brown Dog Services at Scale into Diverse Computing Infrastructures"
 collection: publications
-permalink: /publication/2016-01-01-An-Architecture-for-Automatic-Deployment-of-Brown-Dog-Services-at-Scale-into-Diverse-Computing-Infrastructures
+permalink: /publications/2016-01-01-An-Architecture-for-Automatic-Deployment-of-Brown-Dog-Services-at-Scale-into-Diverse-Computing-Infrastructures
 date: 2016-01-01
 venue: 'Proceedings of the XSEDE16 Conference on Diversity, Big Data, and Science at Scale'
 paperurl: 'https://doi.org/10.1145/2949550.2949647'

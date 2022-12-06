@@ -1,7 +1,7 @@
 ---
 title: "Python wrappers for use with the Clowder system"
 collection: publications
-permalink: /publication/2019-04-01-Python-wrappers-for-use-with-the-Clowder-system
+permalink: /publications/2019-04-01-Python-wrappers-for-use-with-the-Clowder-system
 excerpt: 'Development is supported by Brown Dog (NSF\#1261582)'
 date: 2019-04-01
 venue: 'Zenodo'

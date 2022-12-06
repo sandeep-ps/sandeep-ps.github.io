@@ -1,7 +1,7 @@
 ---
 title: "Introducing an Update to the Cover Crop Decision Support Tool"
 collection: publications
-permalink: /publication/2021-02-01-Introducing-an-Update-to-the-Cover-Crop-Decision-Support-Tool
+permalink: /publications/2021-02-01-Introducing-an-Update-to-the-Cover-Crop-Decision-Support-Tool
 date: 2021-02-01
 venue: 'farmdoc daily'
 paperurl: 'https://farmdocdaily.illinois.edu/2021/02/introducing-an-update-to-the-cover-crop-decision-support-tool.html'

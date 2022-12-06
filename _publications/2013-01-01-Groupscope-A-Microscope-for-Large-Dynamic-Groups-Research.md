@@ -1,7 +1,7 @@
 ---
 title: "Groupscope: A Microscope for Large Dynamic Groups Research"
 collection: publications
-permalink: /publication/2013-01-01-Groupscope-A-Microscope-for-Large-Dynamic-Groups-Research
+permalink: /publications/2013-01-01-Groupscope-A-Microscope-for-Large-Dynamic-Groups-Research
 date: 2013-01-01
 venue: 'IEEE 9th International Conference on eScience (eScience)'
 paperurl: 'https://escience2013.csp.escience.cn/dct/page/65605'
