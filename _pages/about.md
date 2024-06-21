@@ -33,13 +33,21 @@ computer vision, image processing, image and video analysis, unstructured data p
 algorithms, software engineering, software development methodologies, and technical project management. 
 
 
-# Current Projects
+[//]: # (# Current Projects)
 
-<dl>
-    <dt>Rokwire</dt>
-    <dd>An open source mobile software platform for the smart, healthy communities of tomorrow.</dd>
-    <dt>Cover Crop Analyzer</dt>
-    <dd>A Web-Based Decision Support Tool for Cover Crop Management</dd>
-    <dt>JuDel</dt>
-    <dd>A Historical Big Data Analysis to Understand the Social Construction of Juvenile Delinquency in the United States</dd>
-</dl>
+[//]: # ()
+[//]: # (<dl>)
+
+[//]: # (    <dt>Rokwire</dt>)
+
+[//]: # (    <dd>An open source mobile software platform for the smart, healthy communities of tomorrow.</dd>)
+
+[//]: # (    <dt>Cover Crop Analyzer</dt>)
+
+[//]: # (    <dd>A Web-Based Decision Support Tool for Cover Crop Management</dd>)
+
+[//]: # (    <dt>JuDel</dt>)
+
+[//]: # (    <dd>A Historical Big Data Analysis to Understand the Social Construction of Juvenile Delinquency in the United States</dd>)
+
+[//]: # (</dl>)
