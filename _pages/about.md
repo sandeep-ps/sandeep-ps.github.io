@@ -10,7 +10,7 @@ redirect_from:
 
 # Biography
 
-Sandeep is a Senior Research Programmer at the National Center for Supercomputing Applications. In this role, he
+Sandeep is a Senior Research Software Engineer at the National Center for Supercomputing Applications. In this role, he
 collaborates with faculty, scientists, graduate, and undergraduate students to research, design, and develop software
 that helps them achieve their research goals. He received his M.S. in Computer Science and Engineering from the State
 University of New York at Buffalo in May 2013. His final project was in the area of biometrics under the guidance of
@@ -21,15 +21,17 @@ spent a few months as a Software Engineer Trainee in Amrita E-Learning Research 
 the research and development of a face recognition system. He has also served as a Systems Engineer in the Education and
 Research unit of Infosys Ltd., Bangalore, during 2010-’11. There he was with its Corporate Knowledge Management
 Group and was involved in designing and developing a professional networking platform for knowledge assimilation and
-sharing. His interests are research data management and analysis, computer vision, image processing, and artificial
-intelligence. So far in his career, he has worked on multiple research projects spanning the areas of biometrics, face
+sharing. So far in his career, he has worked on multiple research projects spanning the areas of biometrics, face
 recognition, person detection and tracking, 3D modeling and visualization, image and video analytics, handwritten number
 recognition, and unstructured data curation.
 
 
 # Research Interests
 
-TODO:  _Brief explanation of previous and current research interests._
+Sandeep's interests are broadly in the area of research software engineering. Technically, his interests are in 
+computer vision, image processing, image and video analysis, unstructured data processing, research data management, 
+algorithms, software engineering, software development methodologies, and technical project management. 
+
 
 # Current Projects
 

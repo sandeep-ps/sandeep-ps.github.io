@@ -8,3 +8,5 @@ vendor/
 Gemfile.lock
 .jekyll-metadata
 .env
+
+.DS_Store
