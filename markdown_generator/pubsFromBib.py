@@ -78,6 +78,7 @@ for pubsource in publist:
         pub_year = "1900"
         pub_month = "01"
         pub_day = "01"
+        project = ""
         
         b = bibdata.entries[bib_id].fields
         
@@ -128,6 +129,9 @@ for pubsource in publist:
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
 
+            # project
+            if "annote" in b.keys():
+                project = b["annote"].replace("{", "").replace("}","").replace("\\","")
             
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
@@ -153,6 +157,8 @@ for pubsource in publist:
                     url = True
 
             md += "\ncitation: '" + html_escape(citation) + "'"
+
+            md += "\nproject: '" + html_escape(project) + "'"
 
             md += "\n---"
 
