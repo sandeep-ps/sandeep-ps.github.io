@@ -9,9 +9,9 @@ url: 'https://rokwire.org/'
 ---
 
 Rokwire is an open source mobile-first software platform for building the smart communities of tomorrow. It's primarily
-funded by the University of Illinois Urbana Champaign and was initiated towards the end of 2018. 
-The [Illinois app](https://app.illinois.edu/), the official mobile app of the University of Illinois Urbana Champaign, and the [Safer Illinois app](https://safer.illinois.edu/) (retired), 
-the official COVID-19 app of the University of Illinois Urbana Champaign, are built on the Rokwire platform.
+funded by the University of Illinois Urbana-Champaign and was initiated towards the end of 2018. 
+The [Illinois app](https://app.illinois.edu/), the official mobile app of the University of Illinois Urbana-Champaign, and the [Safer Illinois app](https://safer.illinois.edu/) (retired), 
+the official COVID-19 app of the University of Illinois Urbana-Champaign, are built on the Rokwire platform.
 
 Project Lead: William Sullivan, Ph.D., Director, Smart, Healthy Communities Initiative, University of Illinois
 Urbana Champaign
