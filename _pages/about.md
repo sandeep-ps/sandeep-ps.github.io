@@ -12,9 +12,10 @@ redirect_from:
 
 Sandeep is a Senior Research Software Engineer (RSE) at the National Center for Supercomputing Applications (NCSA) at 
 the University of Illinois Urbana-Champaign. In this role, he collaborates with faculty, scientists, graduate, and undergraduate students to research, design, and develop software
-that helps them achieve their research goals. He received his M.S. in Computer Science and Engineering from the State
-University of New York at Buffalo in 2013. He received his B.Tech. in Computer Science and Engineering from Amrita University, 
-India, in 2009. Before joining NCSA, he has worked at the Division of Behavioral Medicine, Buffalo, NY, Amrita E-Learning Research Labs, India, and Infosys Ltd., Bengaluru, India.
+that helps them achieve their research goals. He received his Master of Science degree in Computer Science and Engineering from the State
+University of New York at Buffalo in 2013. He received his Bachelor of Technology degree in Computer Science and Engineering from Amrita University, 
+India, in 2009. Before joining NCSA, he has worked at the Division of Behavioral Medicine, University at Buffalo, New York, USA, 
+Infosys Ltd., Bengaluru, India, and Amrita E-Learning Research Labs, Kollam, India.
 
 So far in his career, he has worked on multiple research projects spanning the areas of biometrics, face
 recognition, person detection and tracking, 3D modeling and visualization, image and video analytics, handwritten number
@@ -22,7 +23,7 @@ recognition, digital humanities, decision support systems, smart communities, an
 
 # Research Interests
 
-Sandeep's interests are broadly in the area of research software engineering. Technically, his interests are in 
+Sandeep's interests are broadly in the area of research software engineering. Technologically, his interests are in 
 computer vision, image processing, image and video analysis, unstructured data processing, research data management, 
 algorithms, software engineering, software development methodologies, and technical project management. 
 
