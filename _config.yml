@@ -181,9 +181,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  media:
-    output: true
-    permalink: /:collection/:path/
+# TODO: Uncomment after adding media
+#  media:
+#    output: true
+#    permalink: /:collection/:path/
 #  portfolio:
 #    output: false
 #    permalink: /:collection/:path/

@@ -9,8 +9,9 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "Media"
-    url: /media/
+# TODO: Uncomment after adding media
+#  - title: "Media"
+#    url: /media/
 
 
 #  - title: "Teaching"
