@@ -18,6 +18,7 @@ en: &DEFAULT_EN
   categories_label           : "Categories:"
   date_label                 : "Published:"
   start_date_label           : "Start Date:"
+  end_date_label             : "End Date:"
   comments_label             : "Leave a Comment"
   comments_title             : "Comments"
   more_label                 : "Learn More"
@@ -67,6 +68,7 @@ es: &DEFAULT_ES
   categories_label           : "Categorías:"
   date_label                 : "Actualizado:"
   start_date_label           : "Fecha de inicio:"
+  end_date_label             : "Fecha final:"
   comments_label             : "Comentar"
   comments_title             :
   more_label                 : "Ver más"
@@ -112,6 +114,7 @@ fr: &DEFAULT_FR
   categories_label           : "Catégories :"
   date_label                 : "Mis à jour :"
   start_date_label           : "Date de début:"
+  end_date_label             : "Date de fin:"
   comments_label             : "Laisser un commentaire"
   comments_title             :
   more_label                 : "Lire plus"
@@ -159,6 +162,7 @@ tr: &DEFAULT_TR
   categories_label           : "Kategoriler:"
   date_label                 : "Güncelleme tarihi:"
   start_date_label           : "Başlangıç tarihi:"
+  end_date_label             : "Bitiş tarihi:"
   comments_label             : "Yorum yapın"
   comments_title             :
   more_label                 : "Daha fazlasını öğrenin"
@@ -184,7 +188,7 @@ tr: &DEFAULT_TR
 tr-TR:
   <<: *DEFAULT_TR
 
-# Brazilian Portguese
+# Brazilian Portuguese
 # -----------------
 pt: &DEFAULT_PT
   page                       : "Página"
@@ -202,6 +206,7 @@ pt: &DEFAULT_PT
   categories_label           : "Categorias:"
   date_label                 : "Atualizado em:"
   start_date_label           : "Data de início:"
+  end_date_label             : "Data final:"
   comments_label             : "Deixe um comentário"
   comments_title             :
   more_label                 : "Aprenda Mais"
@@ -247,6 +252,7 @@ it: &DEFAULT_IT
   categories_label           : "Categorie:"
   date_label                 : "Aggiornato:"
   start_date_label           : "Data d'inizio:"
+  end_date_label             : "Data di fine:"
   comments_label             : "Scrivi un commento"
   comments_title             :
   more_label                 : "Scopri di più"
