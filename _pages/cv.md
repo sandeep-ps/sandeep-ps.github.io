@@ -28,12 +28,13 @@ Experience
   * _Research Software Applications and Learning Technologies (ReSALT) Division, Software Directorate, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign_
   * Key duties:
     * Research, develop and publish on different projects undertaken by the division
-    * Consult and develop research software for PALYIM – an automated image analysis platform for fossil pollen in collaboration with the Department of Plant Biology, University of Illinois Urbana-Champaign
+    * Consult and develop research software for PALYIM – an automated image analysis platform for fossil pollen developed in collaboration with the Department of Plant Biology, University of Illinois Urbana-Champaign
     * Consult and develop research software for [HathiTrust Research Center](https://www.hathitrust.org/about/research-center/) (HTRC), primarily for [TORCHLITE](https://torchlite-stage.htrc.illinois.edu/dashboard) - a web application for querying and analyzing the HathiTrust Digital Library data and updating the [Extracted Features Dataset](https://analytics.hathitrust.org/deriveddatasets#ef).
+    * Design and develop software for Policy Design Lab – a web application that provides functionality to translate, apply and integrate research from multiple disciplines to understand and develop policy concepts or ideas, starting with agricultural conservation, sustainability and climate change through the Farm Bill Mapping Initiative ([https://policydesignlab.ncsa.illinois.edu/](https://policydesignlab.ncsa.illinois.edu/))
+    * Consult and develop research software for Gigapixel Microscopy Project – a web application for gigapixel microscopy image visualization and analysis developed in collaboration with the Prairie Research Institute, University of Illinois Urbana-Champaign 
     * Lead development of MAIDR (Multimodal Access and Interactive Data Representation) software modules as part of the Accessible Visualizations Project (November 2023 – March 2024)
-    * Design and develop software for Policy Design Lab – a web application that provides functionality to translate, apply and integrate research from multiple disciplines to understand and develop policy concepts or ideas, starting with agricultural conservation, sustainability and climate change through the Farm Bill Mapping Initiative (https://policydesignlab.ncsa.illinois.edu/)
-    * Lead backend development efforts on Rokwire, a University of Illinois funded open-source platform for smart and healthy communities (https://rokwire.org/), that powers the Illinois app (the official campus app of the University of Illinois - https://app.illinois.edu/) (team’s allocation concluded in November 2023)
-    * Contribute to Clowder Framework (https://clowderframework.org/) 2.0 development as part of the NSF CSSI award (June 2023).
+    * Lead backend development efforts on Rokwire, a University of Illinois funded open-source platform for smart and healthy communities ([https://rokwire.org/](https://rokwire.org/)), that powers the Illinois app (the official campus app of the University of Illinois - https://app.illinois.edu/) (February 2023 - November 2023)
+    * Contribute to Clowder Framework ([https://clowderframework.org/](https://clowderframework.org/)) 2.0 development as part of the NSF CSSI award (June 2023).
 * May 2020 - January 2023: __Senior Research Programmer__
   * _Research Software Applications and Learning Technologies (ReSALT) Division, Software Directorate, National Center for Supercomputing Applications, University of Illinois Urbana-Champaign_
   * Key duties:
@@ -158,6 +159,7 @@ Talks
 Training Conducted
 ===================
 
+* Developed materials and conducted a training session on "Foundation Models: The Cornerstones of Modern AI" for Arctic scientists at the National Center for Ecological Analysis and Synthesis (NCEAS), Santa Barbara, California, https://cyber2a.github.io/workshop/, Oct. 2024    
 * Facilitated the NSF-funded CyberAmbassadors Program (professional skills training for Cyberinfrastructure professionals, https://sites.google.com/msu.edu/cyberambassadors/) at the University of Illinois. Conducted training on Communication, Teamwork, and Leadership modules (10.5 hours) of the curriculum - 46 participants across the university attended at least one session and 17 participants completed the training program, Sep. 2022 – Nov. 2022
 * Facilitated the first offering of NSF-funded CyberAmbassadors Program at the University of Illinois. Conducted training on Communication and Teamwork modules (9 hours) of the curriculum - 55 participants across the university attended at least one session and 20 participants completed the training program, Aug. 2021 – Sep. 2021
 * Conducted training on 2 sessions from the Communication module of the NSF-funded CyberAmbassadors curriculum at the Tau Beta Pi Engineering Futures Online (https://www.tbp.org/memb/EF.cfm), which were attended by about 75 participants from all over the world, Mar. 2021
