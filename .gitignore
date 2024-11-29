@@ -1,12 +1,22 @@
+# Ignore the contents of the _site directory and other cache directories
 _site/
 .idea/
 .bundle/
 .trash/
 venv/
 vendor/
+.sass-cache/
 
-Gemfile.lock
 .jekyll-metadata
 .env
 
 .DS_Store
+# Ignore the directory for local files during development
+local/
+
+# Ignore the Gemfile that is generated
+Gemfile.lock
+
+# Ingore files created by npm
+node_modules
+package-lock.json
