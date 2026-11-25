@@ -123,7 +123,8 @@
   (google-plus, $google-plus-color),
   (linkedin, $linkedin-color),
   (mastodon, $mastodon-color),
-  (twitter, $twitter-color); 
+  (twitter, $twitter-color),
+  (x, $x-color);
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {
