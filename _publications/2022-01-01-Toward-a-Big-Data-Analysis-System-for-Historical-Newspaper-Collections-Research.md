@@ -1,6 +1,7 @@
 ---
 title: "Toward a Big Data Analysis System for Historical Newspaper Collections Research"
 collection: publications
+category: conferences
 permalink: /publications/2022-01-01-Toward-a-Big-Data-Analysis-System-for-Historical-Newspaper-Collections-Research
 date: 2022-01-01
 venue: 'Proceedings of the Platform for Advanced Scientific Computing Conference'

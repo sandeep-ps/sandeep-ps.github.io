@@ -1,6 +1,7 @@
 ---
 title: "Introducing the Cover Crop Decision Support Tool"
 collection: publications
+category: outreach
 permalink: /publications/2020-10-01-Introducing-the-Cover-Crop-Decision-Support-Tool
 date: 2020-10-01
 venue: 'farmdoc daily'

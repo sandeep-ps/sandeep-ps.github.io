@@ -1,6 +1,7 @@
 ---
 title: "Brown Dog - A Science Driven Data Transformation Service"
 collection: publications
+category: conferences
 permalink: /publications/2016-01-01-Brown-Dog-A-Science-Driven-Data-Transformation-Service
 date: 2016-01-01
 venue: 'Gateways 2016'

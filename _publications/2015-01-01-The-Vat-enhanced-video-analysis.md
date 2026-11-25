@@ -1,6 +1,7 @@
 ---
 title: "The Vat: enhanced video analysis"
 collection: publications
+category: conferences
 permalink: /publications/2015-01-01-The-Vat-enhanced-video-analysis
 date: 2015-01-01
 venue: 'Proceedings of the 2015 XSEDE Conference: Scientific Advancements Enabled by Enhanced Cyberinfrastructure'

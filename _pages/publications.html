@@ -13,7 +13,7 @@ author_profile: true
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
@@ -25,6 +25,24 @@ author_profile: true
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+  {% endfor %}
+
+  {% comment %}Show publications that are missing category or use an unknown key{% endcomment %}
+  {% assign uncategorized_shown = false %}
+  {% for post in site.publications reversed %}
+    {% assign known_category = false %}
+    {% for category in site.publication_category %}
+      {% if post.category == category[0] %}
+        {% assign known_category = true %}
+      {% endif %}
+    {% endfor %}
+    {% unless known_category %}
+      {% unless uncategorized_shown %}
+        <h2>Other</h2><hr />
+        {% assign uncategorized_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endunless %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}

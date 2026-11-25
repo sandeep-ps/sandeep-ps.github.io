@@ -1,6 +1,7 @@
 ---
 title: "Extensible Framework for Analysis of Farm Practices and Programs"
 collection: publications
+category: conferences
 permalink: /publications/2019-01-01-Extensible-Framework-for-Analysis-of-Farm-Practices-and-Programs
 date: 2019-01-01
 venue: 'Proceedings of the Practice and Experience in Advanced Research Computing on Rise of the Machines (Learning)'

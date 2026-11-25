@@ -1,6 +1,7 @@
 ---
 title: "Extracting Meaningful Data from Decomposing Bodies"
 collection: publications
+category: conferences
 permalink: /publications/2017-01-01-Extracting-Meaningful-Data-from-Decomposing-Bodies
 date: 2017-01-01
 venue: 'Proceedings of the Practice and Experience in Advanced Research Computing 2017 on Sustainability, Success and Impact'

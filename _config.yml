@@ -81,7 +81,8 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category - Groups /publications/ by each item's `category` front matter.
+# Keys below must match the `category:` value in each _publications/*.md file.
 publication_category:
   books:
     title: 'Books'
@@ -89,6 +90,12 @@ publication_category:
     title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  posters:
+    title: 'Conference Posters'
+  software:
+    title: 'Software / Data'
+  outreach:
+    title: 'Outreach / Other Articles'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -191,6 +198,7 @@ exclude:
   - README
   - tmp
   - vendor
+  - venv
 keep_files:
   - .git
   - .svn

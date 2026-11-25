@@ -1,6 +1,7 @@
 ---
 title: "MOVIE: Large Scale Automated Analysis of MOVing ImagEs"
 collection: publications
+category: conferences
 permalink: /publications/2014-01-01-MOVIE-Large-Scale-Automated-Analysis-of-MOVing-ImagEs
 date: 2014-01-01
 venue: 'Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Engaging Communities'

@@ -1,6 +1,7 @@
 ---
 title: "Brown Dog: A Data Transformation Ecosystem for Research - Advancing from Beta to 1.0"
 collection: publications
+category: conferences
 permalink: /publications/2017-12-01-Brown-Dog-A-Data-Transformation-Ecosystem-for-Research-Advancing-from-Beta-to-10
 date: 2017-12-01
 venue: 'AGU Fall Meeting Abstracts'
