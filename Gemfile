@@ -18,12 +18,14 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll'
+  gem 'jekyll', '~> 4.4.1'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
   gem 'jemoji'
-  gem 'webrick', '~> 1.8'
 end
 
-gem "github-pages", group: :jekyll_plugins
-gem 'dotenv-rails', groups: [:development, :test]
+gem 'kramdown', '>= 2.5'
+gem 'kramdown-parser-gfm'
