@@ -1,6 +1,7 @@
 ---
 title: "The DIRECT4AG Project, Part 3: Technology for Cover Crop Establishment"
 collection: publications
+category: outreach
 permalink: /publications/2024-01-01-The-DIRECT4AG-Project-Part-3-Technology-for-Cover-Crop-Establishment
 date: 2024-01-01
 venue: 'farmdoc daily'

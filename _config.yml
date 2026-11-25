@@ -3,10 +3,12 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
+# server process.
 
-# Site Settings
+# Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Sandeep Puthanveetil Satheesan"
 title_separator          : "-"
 name                     : &name "Sandeep Puthanveetil Satheesan"
@@ -14,12 +16,94 @@ description              : &description "Senior Research Software Engineer at th
 url                      : https://sandeep-ps.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sandeep-ps/sandeep-ps.github.io"
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "sandeep_profile_picture.jpg"
+  name             : "Sandeep Puthanveetil Satheesan"
+  pronouns         : "he/him"
+  bio              : "Senior Research Software Engineer at the National Center for Supercomputing Applications (NCSA), University of Illinois Urbana-Champaign."
+  location         : "Urbana, Illinois"
+  employer         : "NCSA"
+  employer_url     : "https://www.ncsa.illinois.edu/"
+  uri              : # URL
+  email            : "sandeeps@illinois.edu"
+
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=frYmlJgAAAAJ"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0000-0001-9075-3740"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Sandeep_Puthanveetil_Satheesan"
+  scopus           : # URL
+  zotero           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "sandeep-ps"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+
+  # Social media
+  artstation       : # Username
+  bluesky          : # Username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "sandeepsatheesan"
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Username for X / Twitter
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
+
+# Publication Category - Groups /publications/ by each item's `category` front matter.
+# Keys below must match the `category:` value in each _publications/*.md file.
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+  posters:
+    title: 'Conference Posters'
+  software:
+    title: 'Software / Data'
+  outreach:
+    title: 'Outreach / Other Articles'
+
+# Site Settings
+teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -47,13 +131,16 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
+  hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
+
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
+
 
 # Social Sharing
 twitter:
@@ -62,7 +149,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : og-image.png   # Social media default site image (lives in /images/)
+og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -73,49 +161,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             : "Sandeep Puthanveetil Satheesan"
-  pronouns         :  "he/him"
-  avatar           : "sandeep_profile_picture.jpg"
-  bio              : "Senior Research Software Engineer at the National Center for Supercomputing Applications (NCSA), University of Illinois Urbana-Champaign."
-  location         : "Urbana, Illinois"
-  employer         : "NCSA"
-  employer_url     : "https://www.ncsa.illinois.edu/"
-  googlescholar    : "https://scholar.google.com/citations?user=frYmlJgAAAAJ"
-  email            : "sandeeps@illinois.edu"
-  researchgate     : "https://www.researchgate.net/profile/Sandeep_Puthanveetil_Satheesan"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "sandeep-ps"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "sandeepsatheesan"
-  orcid            : "https://orcid.org/0000-0001-9075-3740"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
@@ -128,25 +176,29 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - CHANGELOG
+  - Capfile
   - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
   - gulpfile.js
+  - LICENSE
+  - local
   - log
   - node_modules
-  - package.json
+  - package.json*
+  - Rakefile
+  - README
   - tmp
   - vendor
+  - venv
 keep_files:
   - .git
   - .svn
@@ -167,6 +219,7 @@ kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
+  header_links: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
@@ -174,15 +227,15 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
+# These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
 # TODO: Uncomment after adding media
+#  teaching:
+#    output: true
+#    permalink: /:collection/:path/
 #  media:
 #    output: true
 #    permalink: /:collection/:path/
@@ -197,7 +250,7 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults
+# These settings control how pages and collections are included in the site
 defaults:
   # _posts
 #  - scope:
@@ -271,33 +324,35 @@ defaults:
       author_profile: true
       share: true
 
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-remote-theme
+  - jemoji
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
@@ -331,9 +386,10 @@ tag_archive:
 
 
 # HTML Compression
-# - http://jch.penibelst.de/
+# - https://jch.penibelst.de/
 compress_html:
   clippings: all
+  comments: ["<!-- ", " -->"]
   ignore:
     envs: development
 

@@ -1,6 +1,7 @@
 ---
 title: "AI for Arctic Research"
 collection: publications
+category: books
 permalink: /publications/2024-01-01-AI-for-Arctic-Research
 date: 2024-01-01
 venue: 'AI for Arctic Research'

@@ -1,6 +1,7 @@
 ---
 title: "Integrating Events and Software Contributions Data with Rokwire - an Open Source Platform for Enabling Smart, Healthy Communities"
 collection: publications
+category: posters
 permalink: /publications/2024-02-01-Integrating-Events-and-Software-Contributions-Data-with-Rokwire-an-Open-Source-Platform-for-Enabling-Smart-Healthy-Communities
 date: 2024-02-01
 venue: 'US-RSE23 Conference Posters'

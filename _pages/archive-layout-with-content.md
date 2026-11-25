@@ -105,7 +105,7 @@ Make any link standout more when applying the `.btn` class.
 
 ### Anchor Tag (aka. Link)
 
-This is an example of a [link](http://github.com "Github").
+This is an example of a [link](https://github.com "GitHub").
 
 ### Abbreviation Tag
 
@@ -172,6 +172,4 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 This allows you to denote <var>variables</var>.
 
 {% include base_path %}
-{% for post in site.pages %}
-{% include archive-single.html %}
-{% endfor %}
+{% include archive-pages.html %}

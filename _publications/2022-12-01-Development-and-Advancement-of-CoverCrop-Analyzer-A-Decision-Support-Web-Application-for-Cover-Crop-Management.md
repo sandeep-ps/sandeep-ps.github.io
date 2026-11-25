@@ -1,6 +1,7 @@
 ---
 title: "Development and Advancement of CoverCrop Analyzer: A Decision Support Web Application for Cover Crop Management"
 collection: publications
+category: conferences
 permalink: /publications/2022-12-01-Development-and-Advancement-of-CoverCrop-Analyzer-A-Decision-Support-Web-Application-for-Cover-Crop-Management
 date: 2022-12-01
 venue: 'AGU Fall Meeting Abstracts'

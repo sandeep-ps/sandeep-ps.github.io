@@ -1,6 +1,7 @@
 ---
 title: "Clowder: Open Source Data Management for Long Tail Data"
 collection: publications
+category: conferences
 permalink: /publications/2018-01-01-Clowder-Open-Source-Data-Management-for-Long-Tail-Data
 date: 2018-01-01
 venue: 'Proceedings of the Practice and Experience on Advanced Research Computing'

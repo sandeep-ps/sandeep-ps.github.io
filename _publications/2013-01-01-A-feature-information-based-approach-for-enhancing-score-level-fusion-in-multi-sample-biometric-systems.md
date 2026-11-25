@@ -1,6 +1,7 @@
 ---
 title: "A feature information based approach for enhancing score-level fusion in multi-sample biometric systems"
 collection: publications
+category: conferences
 permalink: /publications/2013-01-01-A-feature-information-based-approach-for-enhancing-score-level-fusion-in-multi-sample-biometric-systems
 date: 2013-01-01
 venue: '2013 Fourth National Conference on Computer Vision, Pattern Recognition, Image Processing and Graphics (NCVPRIPG)'

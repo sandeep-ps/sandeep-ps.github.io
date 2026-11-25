@@ -1,6 +1,7 @@
 ---
 title: "The DIRECT4AG Project, Part 2: Helping Advance Adoption of Cover Crops"
 collection: publications
+category: outreach
 permalink: /publications/2024-01-01-The-DIRECT4AG-Project-Part-2-Helping-Advance-Adoption-of-Cover-Crops
 date: 2024-01-01
 venue: 'farmdoc daily'

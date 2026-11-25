@@ -1,6 +1,7 @@
 ---
 title: "Petabytes in Practice: Working with Collections as Data at Scale"
 collection: publications
+category: manuscripts
 permalink: /publications/2019-01-01-Petabytes-in-Practice-Working-with-Collections-as-Data-at-Scale
 date: 2019-01-01
 venue: 'Data and Information Management'

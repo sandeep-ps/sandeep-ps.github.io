@@ -35,7 +35,7 @@
     </h2>
     
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
         {% if post.collection == 'teaching' %}
@@ -51,25 +51,24 @@
             <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].start_date_label | default: "Start Date:" }}</strong> <time datetime="{{ post.start_date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.start_date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
           {% endif %}
           {% if post.excerpt and site.read_more == 'enabled' %}
-            <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ post.url }}"> Read more...</a></strong></p></p>
+            <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}<p><strong><a href="{{ post.url }}">Read more...</a></strong></p></div>
           {% endif %}
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
 
     {% if post.excerpt and post.collection != 'projects' and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>
     {% elsif post.excerpt and post.collection != 'projects' and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}<p><strong><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></strong></p></div>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-    {% endif %}
+    {% include /components/citations.html
+        citation=post.citation
+        paperurl=post.paperurl
+        slidesurl=post.slidesurl
+        bibtexurl=post.bibtexurl
+    %}    
 
   </article>
 </div>

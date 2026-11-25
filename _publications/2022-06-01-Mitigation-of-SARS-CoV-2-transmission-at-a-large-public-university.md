@@ -1,6 +1,7 @@
 ---
 title: "Mitigation of SARS-CoV-2 transmission at a large public university"
 collection: publications
+category: manuscripts
 permalink: /publications/2022-06-01-Mitigation-of-SARS-CoV-2-transmission-at-a-large-public-university
 date: 2022-06-01
 venue: 'Nature Communications'

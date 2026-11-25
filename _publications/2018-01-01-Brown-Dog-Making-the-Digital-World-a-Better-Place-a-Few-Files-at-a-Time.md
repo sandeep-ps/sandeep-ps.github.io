@@ -1,6 +1,7 @@
 ---
 title: "Brown Dog: Making the Digital World a Better Place, a Few Files at a Time"
 collection: publications
+category: conferences
 permalink: /publications/2018-01-01-Brown-Dog-Making-the-Digital-World-a-Better-Place-a-Few-Files-at-a-Time
 date: 2018-01-01
 venue: 'Proceedings of the Practice and Experience on Advanced Research Computing'
