@@ -140,9 +140,9 @@ Twitter username (site.twitter.username), matching upstream behavior.
 {% endif %}
 {% comment %} og:description comes from the page excerpt, or falls back to site.og_description; it is not emitted otherwise. {% endcomment %}
 {% if page.excerpt %}
-  <meta property="og:description" name="description" content="{{ seo_description }}">
+  <meta property="og:description" content="{{ seo_description }}">
 {% elsif site.og_description %}
-  <meta property="og:description" name="description" content="{{ site.og_description }}">
+  <meta property="og:description" content="{{ site.og_description }}">
 {% endif %}
 {% if canonical_url %}
   <meta property="og:url" content="{{ canonical_url }}">
